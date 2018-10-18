@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "develope branch", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "v1", Toast.LENGTH_LONG).show();
     }
 }
